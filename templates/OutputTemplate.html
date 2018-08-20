@@ -1,0 +1,10 @@
+<!doctype html>
+<title>Simple tables</title>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='style.css') }}">
+<div class=page>
+  <h1> +ve/-ve Sentiment Predictability Output </h1>
+  {% for table in tables %}
+  <h2><font color="red">{{titles[1]}}</font></h2>
+    {{ table|safe }}
+  {% endfor %}
+</div>
