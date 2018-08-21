@@ -19,8 +19,8 @@ and test the performance of your model on the Amazon data.
 Each file can be found in the ../input directory, and contains 1000 rows of data. Each row contains a sentence, a tab character and then a label -- 0 or 1.
 
 
-### For the full datasets
-----------------------
+__ For the full datasets __
+
 
 * imdb: Maas et. al., 2011 'Learning word vectors for sentiment analysis'
 * amazon: McAuley et. al., 2013 'Hidden factors and hidden topics: Understanding rating dimensions with review text'
