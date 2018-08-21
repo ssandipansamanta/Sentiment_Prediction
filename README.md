@@ -28,7 +28,7 @@ Each file can be found in the ../input directory, and contains 1000 rows of data
 ```
 
 # Set up Structure:
-```xml
+
 * Input Files would be kept in Input folder.
 * Output Files would be saved in Output folder automatically.
 	Mainly Four types of output have been saved.
@@ -44,10 +44,9 @@ Each file can be found in the ../input directory, and contains 1000 rows of data
 	(*) WordCloud.py: Basic Data Checks for Train and Test data set for +/- sentiments.
 * static and templates are for html output folder
 * Codes are refactored and loosely coupled, Will not be very much difficult to change into another language for a specific module. 
-```
 
 # Methodology/Logic Flow:
-```xml
+
 * By Triggering 'Trigger.py', it will first delete all the existing csv and pdf outputs present in output folder.
 * Run '_Main.py' to get input/output/src folder path as well as train and test data set names.
 * '_Main.py' also call DataPreparation, EnvironmentSetup, WordCloud and MLAlgo python codes.
@@ -58,11 +57,9 @@ Each file can be found in the ../input directory, and contains 1000 rows of data
 * TFiDF transformation would be applied on Train and Test Data sets.
 * Fit the model using Train Data sets(i.e. imdb and yelp) and predict for the Test Data set(i.e.Amazon)
 * Predict accuracy and compute confusion Matrix for the same. Confusion matrix will be saved in Output folder.
-```
 	
 # Future Work:
-```xml
+
 * Deep Learning Needs to be applied and gain more accuracy.
 * Combine all the algos to get more roubust prediction viz. max voting, Stacking etc.
 * Error Logging to have production level readyness.
-```
