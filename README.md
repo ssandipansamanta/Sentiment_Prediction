@@ -27,11 +27,11 @@ Each file can be found in the ../input directory, and contains 1000 rows of data
 
 # Steps to Run the Code Base
 ```xml
-* Run 'Trigger.py' using CMD
-* First Data Preparation will start, it will take few minutes
-* Wait till you see the commands like _'Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)'_
-* Open 'SentimentAnalysisAPI.html' and Click the different ML to get the scores.
-* You can interrupt by pressing CTRL+C in CMD.
+1. Run 'Trigger.py' using CMD
+2. First Data Preparation will start, it will take few minutes
+3. Wait till you see the commands like 'Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)'
+4. Open 'SentimentAnalysisAPI.html' and Click the different ML to get the scores.
+5. You can interrupt by pressing CTRL+C in CMD.
 ```
 
 # Set up Structure
