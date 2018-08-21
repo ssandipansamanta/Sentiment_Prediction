@@ -18,11 +18,18 @@ and test the performance of your model on the Amazon data.
 
 Each file can be found in the ../input directory, and contains 1000 rows of data. Each row contains a sentence, a tab character and then a label -- 0 or 1.
 
+
+## For the full datasets look:
+
+imdb: Maas et. al., 2011 'Learning word vectors for sentiment analysis'
+amazon: McAuley et. al., 2013 'Hidden factors and hidden topics: Understanding rating dimensions with review text'
+yelp: Yelp dataset challenge http://www.yelp.com/dataset_challenge
+
 # Steps to Run the Code Base:
 ```xml
 * Run 'Trigger.py' using CMD
 * First Data Preparation will start, it will take few minutes
-* Wait till you see the commands like 'Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)'
+* Wait till you see the commands like _'Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)'_
 * Open 'SentimentAnalysisAPI.html' and Click the different ML to get the scores.
 * You can interrupt by pressing CTRL+C in CMD.
 ```
@@ -63,3 +70,6 @@ Each file can be found in the ../input directory, and contains 1000 rows of data
 * Deep Learning Needs to be applied and gain more accuracy.
 * Combine all the algos to get more roubust prediction viz. max voting, Stacking etc.
 * Error Logging to have production level readyness.
+
+# Reading Materials:
+  From Group to Individual Labels using Deep Features, _Kotzias et. al,. KDD_ 2015
