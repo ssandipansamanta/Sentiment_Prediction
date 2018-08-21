@@ -1,3 +1,0 @@
-Method,Actual,Predicted Un-happy,Predicted Happy
-Random_Forest,Actual Un-happy,436,64
-Random_Forest,Actual Happy,210,290
