@@ -32,16 +32,16 @@ Each file can be found in the ../input directory, and contains 1000 rows of data
 * Input Files would be kept in Input folder.
 * Output Files would be saved in Output folder automatically.
 	Mainly Four types of output have been saved.
-	(*) Distribution of Sentiments accross all files
-	(*) Ready to Model(RTM) Data set for all files.
-	(*) WordCloud for all the data sets by positive/negative sentiments
-	(*) Confusion Matrix for all the ML-algos (after clicking from the UI)
+	* Distribution of Sentiments accross all files
+	* Ready to Model(RTM) Data set for all files.
+	* WordCloud for all the data sets by positive/negative sentiments
+	* Confusion Matrix for all the ML-algos (after clicking from the UI)
 * src contains all source codes
-	(*) _Main.py: Calling all the function
-	(*) DataPreparation.py: Preparing Text for Modeling
-	(*) EnvironmentSetup.py: Loading all Packages and few user defined function.
-	(*) MLAlgo.py: Transform TFiDF and apply NB,Logistic, RF,GBM,SVM,NNet for prediction
-	(*) WordCloud.py: Basic Data Checks for Train and Test data set for +/- sentiments.
+	* _Main.py: Calling all the function
+	* DataPreparation.py: Preparing Text for Modeling
+	* EnvironmentSetup.py: Loading all Packages and few user defined function.
+	* MLAlgo.py: Transform TFiDF and apply NB,Logistic, RF,GBM,SVM,NNet for prediction
+	* WordCloud.py: Basic Data Checks for Train and Test data set for +/- sentiments.
 * static and templates are for html output folder
 * Codes are refactored and loosely coupled, Will not be very much difficult to change into another language for a specific module. 
 
