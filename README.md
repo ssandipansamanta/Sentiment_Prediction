@@ -1,3 +1,13 @@
+Description:
+The goal is to predict sentiment -- the emotional intent behind a statement -- from text. For example, the sentence: "This movie was terrible!" has a negative sentiment, whereas "loved this cinematic masterpiece" has a positive sentiment.
+
+To simplify the task, It's considered sentiment binary: labels of 1 indicate a sentence has a positive sentiment, and labels of 0 indicate that the sentence has a negative sentiment.
+
+Dataset:
+The dataset is split across three files, representing three different sources -- Amazon, Yelp and IMDB. Your task is to build a sentiment analysis model using both the Yelp and IMDB data as your training-set, and test the performance of your model on the Amazon data.
+
+Each file can be found in the ../input directory, and contains 1000 rows of data. Each row contains a sentence, a tab character and then a label -- 0 or 1.
+
 Steps to Run the Code Base:
 
 	 1. Run 'Trigger.py' using CMD
